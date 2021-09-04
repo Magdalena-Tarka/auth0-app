@@ -152,15 +152,12 @@ button {
   box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
 }
 
-.logoutBtn {
-  background: #DD4B39;
-  width: 100px;
-  padding: 5px 20px 5px 20px;
-  text-align: center;
-}
-
-.logoutBtn:hover {
-  background: #E74B37;
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
 }
 
 @-webkit-keyframes fadeIn {
